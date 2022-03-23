@@ -12,8 +12,8 @@ new ganglia interface
 * How do we group the graphs ?
 * A graph signifies a single metric historic pattern.
     - Multiple metrics can be graphed in a single graph if it matches the following cretiria
-    - Different metrics but for same server grouped by "Metrics Group"
-    - Same metric with different servers grouped by "Metrics Group"
+        - Different metrics but for same server grouped by "Metrics Group"
+        - Same metric with different servers grouped by "Metrics Group"
 
 * Grouping via Metrics group if multiple metrics 
 
