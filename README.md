@@ -42,16 +42,16 @@ REQUEST METHOD : GET
 10. List of metrics group 
     -    URL: list=metrics_grp 
 11. List of metics belonging to a particular array/scalar value of metrics group 
-    -     URL: list=metrics&metrics_grp="list of metrics group"
+    -    URL: list=metrics&metrics_grp="list of metrics group"
 
 
-Example Usage: 
+* Example Usage: 
 
-a. To get list of all servers having "proc_run" as metric
+* To get list of all servers having "proc_run" as metric
     - http://<DOMAIN>/api/webservice.php?list=servers&metrics=proc_run
-b. To get list of all metrics deployed 
+* To get list of all metrics deployed 
     - http://<DOMAIN>/api/webservice.php?list=metrics
-c. To get list of all metrics deployed for a particular server 
+* To get list of all metrics deployed for a particular server 
     - http://DOMAIN/api/webservice.php?list=metrics&servers=bll-us1
 
 
