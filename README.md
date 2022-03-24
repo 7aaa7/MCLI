@@ -1,4 +1,12 @@
-DEMO  <%%%>
+* DEMO  <%%%>
+    -  Web
+        - <TODO>  
+    -  CLI
+        - Machine
+            - graph <[server_regex]>([server modifiers]) <[metric_regex]>[(metric modifiers)] [duration] [type] [style] [size] 
+        - Type
+            - graph <[type_regex]>([type modifiers]) <[metric_regex]>[(metric modifiers)] [duration] [type] [style] [size] 
+    
 ====
 
 new ganglia interface
